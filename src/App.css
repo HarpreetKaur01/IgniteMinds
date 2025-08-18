@@ -1,0 +1,126 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  padding: 1px;
+  text-align: center;
+  border: 1px solid red;
+   margin-top: 113px;
+}
+
+.logo {
+  /* height: 6em; */
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #ce0f18aa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #f90483aa);
+}
+
+/* @keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(1) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} */
+
+.card-course {
+  padding: 2em;
+  border: 1px solid cyan;
+  margin: 10px ;
+}
+
+.read-the-docs {
+  color: #888;
+  border: 1px solid red;
+}
+button {
+  background-color: rgb(142, 133, 133);
+}
+
+/* Styles for Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: navy;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  /* justify-content: center;
+  padding: 0px; */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+.nav-links.active  {
+font-weight: bold;
+color: #00070e;
+}
+
+.nav-links a:hover {
+  color: #007bff; /* blue hover */
+}
+
+.main-wrapper {
+max-width: 1280px;
+margin: 0px auto;
+/* background-color: magenta; */
+
+}
+
+nav .main-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0px;
+}
+
+.custom-container{
+          max-width: 1280px;
+          
+}
+.nav-navLinks{
+     display: flex
+;
+    gap: 2rem;
+    padding-right: 2rem;
+    list-style: none;
+   
+    justify-content: space-between;
+  
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+/* main.main-wrapper{
+  padding-top: 200px;
+} */

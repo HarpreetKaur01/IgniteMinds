@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "name": "Amandeep Kaur",
+    "message": "Sukhjit's guidance helped me achieve an overall band 8. His tips for the speaking test were especially effective!",
+    "image": "/images/headshot1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Raj Patel",
+    "message": "I was struggling with the writing section, but after just a few sessions, my confidence improved drastically.",
+    "image": "/images/headshot2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Fatima Ali",
+    "message": "Very patient and knowledgeable. I highly recommend his IELTS prep course!",
+    "image": "/images/headshot3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Rahul",
+    "message": "Very patient and knowledgeable. I highly recommend his IELTS prep course!",
+    "image": "/images/headshot4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Salma",
+    "message": "Sukhjit's guidance helped me achieve an overall band 8. His tips for the speaking test were especially effective!",
+    "image": "/images/headshot5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Puja",
+    "message": "I was struggling with the writing section, but after just a few sessions, my confidence improved drastically.",
+    "image": "/images/headshot6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "irfan",
+    "message": "Very patient and knowledgeable. I highly recommend his IELTS prep course!",
+    "image": "/images/headshot7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Joe",
+    "message": "Very patient and knowledgeable. I highly recommend his IELTS prep course!",
+    "image": "/images/headshot8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Lee",
+    "message": "SukhJit's guidance helped me achieve an overall band 8. His tips for the speaking test were especially effective!",
+    "image": "/images/headshot9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Grace",
+    "message": "I was struggling with the writing section, but after just a few sessions, my confidence improved drastically.",
+    "image": "/images/headshot10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Mehak",
+    "message": "Very patient and knowledgeable. I highly recommend him IELTS prep course!",
+    "image": "/images/headshot11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Susan",
+    "message": "Very patient and knowledgeable. I highly recommend his IELTS prep course!",
+    "image": "/images/headshot12.jpg"
+  }
+
+]
