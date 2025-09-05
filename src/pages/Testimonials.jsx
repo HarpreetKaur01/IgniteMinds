@@ -5,18 +5,16 @@ import TestimonialCarousal from '../components/TestimonialCarousal'
 
 function Testimonials() {
   return (
-    <div style={{ border: "1px solid green" }}>
+    <div >
       <section className='custom-container  py-5'>
         <h2>What My Students Say</h2>
         <div className="row">
-{testimonials.map( testimony => (<TestimonialCard key={testimony.id} name={testimony.name} message={testimony.message} image={testimony.image}/>) )}
+{[...testimonials].reverse().map( testimony => (<TestimonialCard key={testimony.id} name={testimony.name} message={testimony.message} image={testimony.image} trf = {testimony.trf}/>) )}
         </div>
         
       </section>
 
-      <section style={{backgroundColor: '#bfe28e'}} className='py-5'>
-        <TestimonialCarousal />
-      </section>
+    
       
       
     </div>

@@ -5,15 +5,18 @@
   /* padding: 2rem; */
   padding: 1px;
   text-align: center;
-  border: 1px solid red;
+
    margin-top: 113px;
 }
 
 .logo {
   /* height: 6em; */
-  padding: 1.5em;
+  /* padding: 1.5em;
   will-change: filter;
-  transition: filter 300ms;
+  transition: filter 300ms; */
+  border: 1px solid rgba(0, 0, 0, 0.1); /* light, almost invisible border */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* soft shadow */
+  border-radius: 8px; /* optional, if you want rounded corners */
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #ce0f18aa);
@@ -39,7 +42,7 @@
 
 .card-course {
   padding: 2em;
-  border: 1px solid cyan;
+  
   margin: 10px ;
 }
 
@@ -58,7 +61,7 @@ button {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: navy;
+  background-color: #0000ff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   flex-wrap: wrap;
 }
@@ -133,4 +136,11 @@ nav .main-wrapper{
   .nav-navLinks{
     gap: 0.5rem;
   }
+}
+
+.trf-thumb{
+  width: 120px;   /* fixed width */
+  height: auto;   /* keep aspect ratio */
+  border-radius: 8px;
+  border: 1px solid #ccc;
 }

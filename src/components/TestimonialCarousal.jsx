@@ -4,25 +4,24 @@ import testimonials from "../data/testimonials";
 import TestimonialCard from "./TestimonialCard";
 
 function TestimonialCarousal() {
+  const featuredTestimonials = testimonials.filter(t => t.featured )
   return (
+  
     <div>
       <div id="myCarousel" className="carousel slide justify-content-center" data-bs-ride="carousel">
         <div className="carousel-indicators">
-            {testimonials.map( (testimony, index) => (<button key={testimony.id} data-bs-target="#myCarousel" data-bs-slide-to={index} className= { index === 0 ? "active" : ""}></button>))}
+            {featuredTestimonials.map( (testimony, index) => (<button key={testimony.id} data-bs-target="#myCarousel" data-bs-slide-to={index} className= { index === 0 ? "active" : ""}></button>))}
 
         </div>
 
         <div className="carousel-inner ">
-            {testimonials.map( (testimony, index) => (
+            {[...featuredTestimonials].reverse().map( (testimony, index) => (
                 <div key={testimony.id} className= {`carousel-item    ${index === 0 ? "active" : ""}` } >
                      <div className="d-flex justify-content-center">
-                        <TestimonialCard name={testimony.name} message = {testimony.message} image={testimony.image} />
+                        <TestimonialCard name={testimony.name} message = {testimony.message} image={testimony.image}  trf = {testimony.trf} score={testimony.score}/>
                 </div>
                 </div>
-                
-        //     <div key={testimony.id} className= {`carousel-item ${index === 0 ? "active" : ""}` }>
-        //     <img src={testimony.image} alt="" style={{ width: "100%" }} />
-        //   </div>
+        
         ))}
 
         </div>

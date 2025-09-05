@@ -2,28 +2,27 @@ import React from "react";
 
 function About() {
   return (
-    <div style={{ border: "1px solid green" }}>
+    <div >
       <section
         className="intro custom-container  py-5"
-        style={{ border: "1px solid black" }}
-      >
+         >
         <h2>About Me</h2>
 
         <p>
-          Hi! I'm SukhJit — a passionate IELTS instructor dedicated to helping
+          Hi! I'm Sukhjeet — a passionate IELTS instructor dedicated to helping
           students achieve their desired band scores.
         </p>
 
         <p>
-          With over 5 years of experience in IELTS training , I blend clear communication with effective teaching
+          With over 10 years of experience in IELTS training , I blend clear communication with effective teaching
           strategies. I’ve supported learners from different backgrounds,
           levels, and goals — from students applying for universities abroad to
           professionals seeking immigration.
         </p>
       </section>
       <section
-        className="teaching-philosphy custom-container py-5"
-        style={{ border: "1px solid black" }}
+        className="teaching-philosphy custom-container py-5"   style={{ backgroundColor: "white"}}
+     
       >
         <h3>My Teaching Approach</h3>
 
@@ -36,19 +35,19 @@ function About() {
       </section>
       <section
         className="cert-exp custom-container  py-5"
-        style={{ border: "1px solid black" }}
+       
       >
         <h3>Qualifications</h3>
-        <ul>
+        <ul style={{ listStylePosition: "inside"}}>
           <li> Certified IELTS Trainer</li>
-          <li>5+ years of IELTS teaching experience</li>
+          <li>10+ years of IELTS teaching experience</li>
           <li>Successfully coached 200+ student</li>
           <li>Specialized in Band 7+ strategy</li>
         </ul>
       </section>
       <section
         className="vision-statement custom-container  py-5"
-        style={{ border: "1px solid black" }}
+         style={{ backgroundColor: "white"}}
       >
         <h3>My Goal</h3>
         <p>

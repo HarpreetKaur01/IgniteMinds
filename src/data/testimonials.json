@@ -1,75 +1,112 @@
-[
-  {
+[ {
     "id": 1,
-    "name": "Amandeep Kaur",
-    "message": "Sukhjit's guidance helped me achieve an overall band 8. His tips for the speaking test were especially effective!",
-    "image": "/images/headshot1.jpg"
+    "name": "Harpinder Kaur",
+    "message": "Very patient and knowledgeable. I highly recommend his IELTS prep course!",
+    "image": "/images/harpinderHeadshot.jpg",
+    "trf": "/images/harpinderTRF.jpg",
+     "score": "6.5",
+    "featured": false
   },
+  
   {
     "id": 2,
-    "name": "Raj Patel",
+    "name": "Gurpreet Kaur",
     "message": "I was struggling with the writing section, but after just a few sessions, my confidence improved drastically.",
-    "image": "/images/headshot2.jpg"
+    "image": "/images/gurpreetHeadshot.jpg",
+    "trf": "/images/gurpreetTRF.jpg",
+     "score": "6.5",
+    "featured": false
   },
   {
     "id": 3,
-    "name": "Fatima Ali",
+    "name": "Pardeep Singh",
     "message": "Very patient and knowledgeable. I highly recommend his IELTS prep course!",
-    "image": "/images/headshot3.jpg"
+    "image": "/images/pardeepHeadshot.jpg",
+    "trf": "/images/pardeepTRF.jpg",
+    "score": "6.5",
+    "featured": false
   },
   {
     "id": 4,
-    "name": "Rahul",
+    "name": "Satnam Singh",
     "message": "Very patient and knowledgeable. I highly recommend his IELTS prep course!",
-    "image": "/images/headshot4.jpg"
+    "image": "/images/satnamHeadshot.jpg",
+    "trf": "/images/satnamTRF.jpg",
+    "score": "6.5",
+    "featured": false
   },
   {
     "id": 5,
-    "name": "Salma",
+    "name": "Sukhpreet Singh",
     "message": "Sukhjit's guidance helped me achieve an overall band 8. His tips for the speaking test were especially effective!",
-    "image": "/images/headshot5.jpg"
+    "image": "/images/sukhpreetSinghHeadshot.jpg",
+    "trf": "/images/sukhpreetSinghTRF.jpg",
+    "score": "6.5",
+    "featured": false
   },
   {
     "id": 6,
-    "name": "Puja",
+    "name": "Kamaljeet Kaur",
     "message": "I was struggling with the writing section, but after just a few sessions, my confidence improved drastically.",
-    "image": "/images/headshot6.jpg"
+    "image": "/images/kamaljeetHeadshot.jpg",
+    "trf": "/images/kamaljeetTRF.jpg",
+    "score": "6",
+    "featured": false
   },
   {
     "id": 7,
-    "name": "irfan",
+    "name": "Navjeet Kaur",
     "message": "Very patient and knowledgeable. I highly recommend his IELTS prep course!",
-    "image": "/images/headshot7.jpg"
+    "image": "/images/navjeetHeadshot.jpg",
+    "trf": "/images/navjeetTRF.jpg",
+    "score": "7",
+    "featured": true
   },
   {
     "id": 8,
-    "name": "Joe",
+    "name": "Navjot Singh",
     "message": "Very patient and knowledgeable. I highly recommend his IELTS prep course!",
-    "image": "/images/headshot8.jpg"
+    "image": "/images/navjotHeadshot.jpg",
+    "trf": "/images/navjotTRF.jpg",
+    "score": "6.5",
+    "featured": false
   },
   {
     "id": 9,
-    "name": "Lee",
-    "message": "SukhJit's guidance helped me achieve an overall band 8. His tips for the speaking test were especially effective!",
-    "image": "/images/headshot9.jpg"
+    "name": "Harleen Kaur",
+    "message": "Sukhjeet's guidance helped me achieve an overall band 8. His tips for the speaking test were especially effective!",
+    "image": "/images/avatar-girl.png",
+    "trf": "/images/harleenTRF.jpg",
+    "score": "7",
+    "featured": true
+  
   },
   {
     "id": 10,
-    "name": "Grace",
+    "name": "Khushmeet Kaur",
     "message": "I was struggling with the writing section, but after just a few sessions, my confidence improved drastically.",
-    "image": "/images/headshot10.jpg"
+    "image": "/images/khushmeetHeadshot.jpg",
+    "trf": "/images/khushmeetTRF.jpg",
+    "score": "7.5",
+    "featured": true
   },
   {
     "id": 11,
-    "name": "Mehak",
-    "message": "Very patient and knowledgeable. I highly recommend him IELTS prep course!",
-    "image": "/images/headshot11.jpg"
-  },
-  {
-    "id": 12,
-    "name": "Susan",
+    "name": "Ravleen Kaur",
     "message": "Very patient and knowledgeable. I highly recommend his IELTS prep course!",
-    "image": "/images/headshot12.jpg"
+    "image": "/images/ravleenHeadshot.jpg",
+    "trf": "/images/ravleenTRF.jpg",
+    "score": "6.5",
+    "featured": false
+  },
+ 
+{
+    "id": 12,
+    "name": "Sukhpreet Kaur",
+    "message": "Sukhjeet's guidance helped me achieve an overall band 8. His tips for the speaking test were especially effective!",
+    "image": "/images/sukhpreetHeadshot2.jpg",
+    "trf": "/images/sukhpreetTRF.jpg",
+    "score": "7",
+    "featured": true
   }
-
 ]

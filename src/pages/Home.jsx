@@ -1,12 +1,13 @@
 import React from "react";
 import instrutorPhoto from "../assets/instructor.jpg";
-
+import TestimonialCard from '../components/TestimonialCard'
+import TestimonialCarousal from '../components/TestimonialCarousal'
 import courses from "../data/courses";
 import CourseCard from "../components/CourseCard";
 import { Link } from "react-router-dom";
 function Home() {
   return (
-    <div style={{ border: "1px solid green" }}>
+    <div >
       <section className="Hero-section custom-container  py-5">
         <h1>Achieve Your Dream IELTS Score</h1>
         {/* <img
@@ -27,11 +28,11 @@ function Home() {
 
       <section
         className="instructor-intro custom-container  py-5"
-        style={{ border: "1px solid black" }}
+        style={{  backgroundColor: "white"}}
       >
         <h2>Meet Your Instructor</h2>
         <p>
-          Hi, I'm Sukhjit, a certified IELTS instructor with over 5 years of
+          Hi, I'm Sukhjeet, a certified IELTS instructor with over 10 years of
           experience helping students reach Band 7+. My teaching focuses on
           building confidence, mastering test strategies, and giving personal
           feedback to improve fast.
@@ -44,7 +45,7 @@ function Home() {
 
       <section
         className="learn-with-us custom-container  py-5"
-        style={{ border: "1px solid black" }}
+        style={{  backgroundColor: "#F5F5F5"}}
       >
         <h2>Why Learn With Us?</h2>
 
@@ -68,25 +69,32 @@ function Home() {
       </section>
       <section
         className="preview-of-courses custom-container  py-5"
-        style={{ border: "1px solid black" }}
+        style={{  backgroundColor: '#fff'}}
       >
         <h2>Our Courses</h2>
         <div className="row">
- {courses.map((course) => (
+ {courses.slice(0,3).map((course) => (
           <CourseCard
             key={course.id}
             title={course.title}
             price={course.price}Link 
             image={course.image}
+            description= {course.description}
           />
         ))}
         </div>
+        <div style={{paddingTop: "20px"}}>
+             <Link to="/courses" className="btn btn-primary" >View All Courses</Link>
+        </div>
        
-        <Link to="/courses" className="btn btn-primary" >View All Courses</Link>
+        
+      </section>
+        <section style={{backgroundColor: "#F5F5F5"}} className='py-5'>
+        <TestimonialCarousal />
       </section>
       <section
         className="call-to-action custom-container  py-5"
-        style={{ border: "1px solid black" }}
+        style={{ backgroundColor: "#Fff"}}
       >
         <h3>Ready to Get Started?</h3>
         <p>Let’s prepare for your IELTS test the right way.</p>

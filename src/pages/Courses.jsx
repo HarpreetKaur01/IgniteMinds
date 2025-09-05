@@ -5,8 +5,8 @@ import CourseCard from "../components/CourseCard";
 
 function Courses() {
   return (
-    <div style={{ border: "1px solid green" }}>
-      <section className="custom-container  py-5">
+    <div >
+      <section className="custom-container  py-5" >
         <h2>IELTS Courses Tailored to Your Goals</h2>
         <p>
           Choose from a range of flexible and focused IELTS courses designed to
@@ -16,8 +16,8 @@ function Courses() {
         </p>
       </section>
       <section
-        className="custom-container  py-5"
-        style={{ border: "1px solid green" }}
+        className="custom-container  py-5"  style={{backgroundColor: "white"}}
+      
       >
         <h3>Our IELTS Courses</h3>
         <div className="row">
@@ -27,13 +27,14 @@ function Courses() {
               title={course.title}
               price={course.price}
               image={course.image}
+              description= {course.description}
             />
           ))}
         </div>
       </section>
       <section
         className="custom-container  py-5"
-        style={{ border: "1px solid green" }}
+       
       >
         <h3>Not Sure Which Course to Choose?</h3>
 

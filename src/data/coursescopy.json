@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "title": "IELTS Reading",
+    "description": "Master reading techniques with strategies to locate answers quickly, improve comprehension, and handle tricky question types with ease.",
+    "price": "$60",
+    "image": "/images/reading.jpg"
+  },
+  {
+    "id": 2,
+    "title": "IELTS Writing",
+    "description": "Learn how to structure essays, reports, and letters with personalized feedback to help you score higher in Task 1 and Task 2.",
+    "price": "$70",
+    "image": "/images/writing.jpg"
+  },
+  {
+    "id": 3,
+    "title": "IELTS Speaking",
+    "description": "Practice real exam-style questions with live feedback on pronunciation, fluency, and vocabulary to boost your speaking confidence.",
+    "price": "$80",
+    "image": "/images/speaking.jpg"
+  },
+  {
+    "id": 4,
+    "title": "IELTS Listening",
+    "description": "Develop active listening skills with practice tests, accent training, and proven strategies to avoid common mistakes.",
+    "price": "$90",
+    "image": "/images/listening.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Full IELTS Package",
+    "description": "Get complete preparation for all four modules with study materials, mock tests, and one-on-one guidance.",
+    "price": "$100",
+    "image": "/images/fullpackage.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Spoken English",
+    "description": "Improve everyday communication, vocabulary, and confidence in conversations through interactive speaking sessions.",
+    "price": "$50",
+    "image": "/images/spokenenglish.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Visa Consultation",
+    "description": "Get expert guidance on study, work, and travel visa applications with step-by-step support tailored to your needs.",
+    "price": "Custom Pricing",
+    "image": "/images/visa.jpg"
+  }
+]

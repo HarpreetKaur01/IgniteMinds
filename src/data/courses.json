@@ -1,38 +1,42 @@
 
 [
+  
   {
     "id": 1,
-    "title": "IELTS Reading ",
-    "description": "Improve your reading with guided feedback",
-    "price": "$60",
-    "image": "/images/reading.jpg"
+    "title": "IELTS",
+    "description": "Comprehensive training for Listening, Reading, Writing, and Speaking with practice tests, feedback, and personalized strategies to achieve your target band score.",
+    "price": "₹10,000",
+    "image": "/images/writing.jpg"
+    
   },
   {
     "id": 2,
-    "title": "IELTS Writing ",
-    "description": "Live sessions to boost fluency",
-    "price": "$70",
+    "title": "PTE",
+    "description": "Structured preparation for Pearson Test of English with AI-based mock tests, tips for scoring higher, and tailored support for academic and general training.",
+    "price": "₹8,000",
     "image": "/images/writing.jpg"
   },
   {
     "id": 3,
-    "title": "IELTS Speaking ",
-    "description": "Live sessions to boost fluency",
-    "price": "$80",
+    "title": "Spoken English",
+    "description": "Boost fluency and confidence in daily and professional communication with interactive sessions focusing on pronunciation, grammar, and real-life conversations.",
+    "price": "₹4000",
     "image": "/images/writing.jpg"
   },
   {
     "id": 4,
-    "title": "IELTS Listening ",
-    "description": "Live sessions to boost fluency",
-    "price": "$90",
+    "title": "Interview Prepration",
+     "description": "Sharpen your interview skills with mock interviews, personalized feedback, and techniques to confidently answer HR and technical questions.",
+    "price": "Custom Pricing",
     "image": "/images/writing.jpg"
   },
   {
     "id": 5,
-    "title": "Full Package",
-    "description": "Live sessions to boost fluency",
-    "price": "$100",
+    "title": "Visa Consultation",
+     "description": "Step-by-step guidance for study, work, and travel visa applications, including document preparation, process assistance, and expert advice for smooth approval.",
+     "price": "Custom Pricing",
     "image": "/images/writing.jpg"
   }
+  
+  
 ]

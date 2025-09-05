@@ -1,11 +1,11 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import siteLogo from "../assets/site-logo.jpg";
+import siteLogo from "../assets/site-logo.png";
 function Navbar() {
   return (
      <nav className="navbar fixed-top ">
       <div className='main-wrapper container' >
-        <img src={siteLogo} alt="" />
+        <img src={siteLogo} alt="" className='logo'/>
           
           <ul className="nav-navLinks">
             <li><NavLink to="/" className={({ isActive }) => isActive ? "nav-links active" : "nav-links"}>Home</NavLink></li>

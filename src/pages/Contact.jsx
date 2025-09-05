@@ -52,14 +52,14 @@ function Contact() {
     );
   };
   return (
-    <div style={{ border: "1px solid green" }}>
-      <section className="custom-container  py-5" style={{ border: "1px solid black" }}>
+    <div >
+      <section className="custom-container  py-5" >
         <h2>Get in Touch</h2>
         <p>Have a question about the courses? Want to know which IELTS program is right for you?
 Fill out the form below or email me directly — I’d love to help you on your IELTS journey!</p>
 
       </section>
-      <section className="contat-form custom-container  py-5">
+      <section className="contat-form custom-container  py-5" style={{backgroundColor: "white"}}>
         
         {submitted && (
           <p style={{ color: "green" }}>Thank you! We’ll get back to you.</p>
@@ -91,7 +91,7 @@ Fill out the form below or email me directly — I’d love to help you on your 
             Message:
             <input
               name="clientMessage"
-              type="text"
+              type="textarea"
               value={formData.clientMessage}
               onChange={handleChange}
             />
@@ -102,14 +102,14 @@ Fill out the form below or email me directly — I’d love to help you on your 
         </form>
       </section>
 
-      <section className="custom-container  py-5" style={{ border: "1px solid black" }}>
-        <p>Email: ieltswithsukhjit@igniteminds.com</p>
-<p>Phone: +1 (123) 456-7890</p>
-<p>Location: Punjab, India</p>
+      <section className="custom-container  py-5" >
+        <p>Email: ignitemindsinstitute@gmail.com</p>
+<p>Phone: +91 98723 08512</p>
+<p>Location: Takhtupura Sahib, Moga - Punjab, India</p>
 <p>(Online coaching available worldwide)</p>
       </section>
 
-      <section className="call-to-action-line custom-container  py-5"  style={{ border: "1px solid black" }}>
+      <section className="call-to-action-line custom-container  py-5"  style={{backgroundColor: "white"}}>
         <h2>Looking forward to helping you achieve your dream IELTS score!</h2>
       </section>
     </div>
