@@ -98,7 +98,7 @@ Fill out the form below or email me directly — I’d love to help you on your 
           </label>
           {errors.cmessage && <p style={{ color: "red" }}>{errors.cmessage}</p>}
           <br /><br />
-          <button type="submit">Send Message</button>
+          <button type="submit" style={{backgroundColor: "#3C6EFD"}}>Send Message</button>
         </form>
       </section>
 

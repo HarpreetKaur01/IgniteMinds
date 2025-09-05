@@ -9,7 +9,7 @@ function Testimonials() {
       <section className='custom-container  py-5'>
         <h2>What My Students Say</h2>
         <div className="row">
-{[...testimonials].reverse().map( testimony => (<TestimonialCard key={testimony.id} name={testimony.name} message={testimony.message} image={testimony.image} trf = {testimony.trf}/>) )}
+{[...testimonials].reverse().map( testimony => (<TestimonialCard key={testimony.id} name={testimony.name} message={testimony.message} image={testimony.image} trf = {testimony.trf} score={testimony.score}/>) )}
         </div>
         
       </section>
