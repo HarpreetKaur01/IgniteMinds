@@ -32,7 +32,7 @@ function Home() {
       >
         <h2>Meet Your Instructor</h2>
         <p>
-          Hi, I'm Sukhjeet, a certified IELTS instructor with over 10 years of
+          Hi, I'm Sukhjeet, a certified IELTS instructor with over 15 years of
           experience helping students reach Band 7+. My teaching focuses on
           building confidence, mastering test strategies, and giving personal
           feedback to improve fast.

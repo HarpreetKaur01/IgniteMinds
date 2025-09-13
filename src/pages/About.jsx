@@ -14,7 +14,7 @@ function About() {
         </p>
 
         <p>
-          With over 10 years of experience in IELTS training , I blend clear communication with effective teaching
+          With over 15 years of experience in IELTS training , I blend clear communication with effective teaching
           strategies. I’ve supported learners from different backgrounds,
           levels, and goals — from students applying for universities abroad to
           professionals seeking immigration.
@@ -40,7 +40,7 @@ function About() {
         <h3>Qualifications</h3>
         <ul style={{ listStylePosition: "inside"}}>
           <li> Certified IELTS Trainer</li>
-          <li>10+ years of IELTS teaching experience</li>
+          <li>15+ years of IELTS teaching experience</li>
           <li>Successfully coached 200+ student</li>
           <li>Specialized in Band 7+ strategy</li>
         </ul>

@@ -1,25 +1,83 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React from "react";
+import { NavLink } from "react-router-dom";
 import siteLogo from "../assets/site-logo.png";
 function Navbar() {
   return (
-     <nav className="navbar fixed-top ">
-      <div className='main-wrapper container' >
-        <img src={siteLogo} alt="" className='logo'/>
-          
-          <ul className="nav-navLinks">
-            <li><NavLink to="/" className={({ isActive }) => isActive ? "nav-links active" : "nav-links"}>Home</NavLink></li>
-            <li><NavLink to="/about" className={({ isActive }) => isActive ? "nav-links active" : "nav-links"}>About</NavLink></li>
-            <li><NavLink to="/courses" className={({ isActive }) => isActive ? "nav-links active" : "nav-links"}>Courses</NavLink></li>
-             <li><NavLink to="/testimonials" className={({ isActive }) => isActive ? "nav-links active" : "nav-links"}>Testimonials</NavLink></li>
-            <li><NavLink to="/contact" className={({ isActive }) => isActive ? "nav-links active" : "nav-links"}>Contact</NavLink></li>
-            
+    <nav className="navbar fixed-top navbar-expand-md">
+      <div className="main-wrapper container">
+        <a href="/" className="navbar-brand">
+          {" "}
+          <img src={siteLogo} alt="Logo" className="logo" />
+        </a>
+
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNavbar"
+          aria-controls="mainNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div id="mainNavbar" className="collapse navbar-collapse">
+          <ul className="nav-navLinks navbar-nav ms-auto">
+            <li className="nav-item">
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link"
+                }
+              >
+                Home
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                to="/about"
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link"
+                }
+              >
+                About
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                to="/courses"
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link"
+                }
+              >
+                Courses
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                to="/testimonials"
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link"
+                }
+              >
+                Testimonials
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                to="/contact"
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link"
+                }
+              >
+                Contact
+              </NavLink>
+            </li>
           </ul>
-           </div>
-        </nav>
-       
-  )
+        </div>
+      </div>
+    </nav>
+  );
 }
 
-export default Navbar
-
+export default Navbar;
