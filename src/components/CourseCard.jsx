@@ -20,7 +20,7 @@ function CourseCard({ title, price, image, description }) {
   const message = `Hello, my name is ${name}. My number is ${phone} My contact email is ${email}.I am interested in the course: ${title}`
 ;
 
-  window.open(`https://wa.me/14168258430?text=${encodeURIComponent(message)}`, "_blank");
+  window.open(`https://wa.me/919872308512?text=${encodeURIComponent(message)}`, "_blank");
 };
   return (
     
