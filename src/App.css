@@ -162,3 +162,13 @@ color: #00070e;
   color: #fff; /* text changes to black */
   text-decoration: underline;
 }
+
+ .video-section a {
+  color: #372692;   /* hover color (example: orange-red) */
+  /* optional */
+}
+
+.video-section a:hover{
+  color: #060220;   /* hover color (example: orange-red) */
+  text-decoration: underline; /* optional */
+}

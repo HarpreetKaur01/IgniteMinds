@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import emailjs from "@emailjs/browser"
 
 function Contact() {
   const [errors, setErrors] = useState({});
@@ -24,11 +25,13 @@ function Contact() {
     if (!formData.clientName.trim()) {
       newErrors.cname = "Name is required";
     }
+
     if (!formData.clientEmail.trim()) {
       newErrors.cemail = "Email is required";
     } else if (!/\S+@\S+\.\S+/.test(formData.clientEmail)) {
       newErrors.cemail = "Email is not valid";
     }
+    
     if (!formData.clientMessage.trim()) {
       newErrors.cmessage = "Message is required";
     }
@@ -37,19 +40,29 @@ function Contact() {
       return;
     }
 
-    setErrors({});
-    if (Object.keys(newErrors).length === 0) {
-      setSubmitted(true);
-      setFormData({
-        clientName: "",
-        clientEmail: "",
-        clientMessage: "",
-      });
-    }
+    // setErrors({});
+    // if (Object.keys(newErrors).length === 0) {
+    //   setSubmitted(true);
+    //   setFormData({
+    //     clientName: "",
+    //     clientEmail: "",
+    //     clientMessage: "",
+    //   });
+    // }
 
-    alert(
-      `Hello ${formData.clientName}  ${formData.clientEmail}  ${formData.clientMessage}`
-    );
+    // alert(
+    //   `Hello ${formData.clientName}  ${formData.clientEmail}  ${formData.clientMessage}`
+    // );
+
+    emailjs.send(import.meta.env.VITE_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID, { clientName: formData.clientName,
+    clientEmail: formData.clientEmail,
+    clientMessage: formData.clientMessage,}, import.meta.env.VITE_EMAILJS_PUBLIC_KEY )
+    .then((result) => {
+      console.log("Success:", result.text);
+      setSubmitted(true);
+      setFormData({ clientName: "",  clientEmail: "",  clientMessage: ""});
+    }, (error) => {console.error("Error", error.text); });
   };
   return (
     <div >
@@ -65,7 +78,7 @@ Fill out the form below or email me directly — I’d love to help you on your 
           <p style={{ color: "green" }}>Thank you! We’ll get back to you.</p>
         )}
         <form onSubmit={handleSubmit} noValidate>
-          <label htmlFor="clientName">
+          <label htmlFor="clientName" style={{display: "block", marginBottom: "10px"}}>
             Name:
             <input
               name="clientName"
@@ -73,10 +86,11 @@ Fill out the form below or email me directly — I’d love to help you on your 
               value={formData.clientName}
               onChange={handleChange}
             />
+            {errors.cname && <p style={{ color: "red" }}>{errors.cname}</p>}
           </label>
-          {errors.cname && <p style={{ color: "red" }}>{errors.cname}</p>}
-          <br /><br />
-          <label htmlFor="clientEmail">
+          
+          
+          <label htmlFor="clientEmail" style={{display: "block", marginBottom: "10px"}}>
             Email:
             <input
               name="clientEmail"
@@ -84,10 +98,10 @@ Fill out the form below or email me directly — I’d love to help you on your 
               value={formData.clientEmail}
               onChange={handleChange}
             />
+            {errors.cemail && <p style={{ color: "red" }}>{errors.cemail}</p>}
           </label>
-          {errors.cemail && <p style={{ color: "red" }}>{errors.cemail}</p>}
-          <br /><br />
-          <label htmlFor="clientMessage">
+
+          <label htmlFor="clientMessage" style={{display: "block", marginBottom: "10px"}}>
             Message:
             <input
               name="clientMessage"
@@ -95,9 +109,10 @@ Fill out the form below or email me directly — I’d love to help you on your 
               value={formData.clientMessage}
               onChange={handleChange}
             />
+       {errors.cmessage && <p style={{ color: "red" }}>{errors.cmessage}</p>}
           </label>
-          {errors.cmessage && <p style={{ color: "red" }}>{errors.cmessage}</p>}
-          <br /><br />
+          
+        
           <button type="submit" style={{backgroundColor: "#3C6EFD"}}>Send Message</button>
         </form>
       </section>

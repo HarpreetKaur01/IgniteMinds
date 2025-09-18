@@ -86,15 +86,36 @@ function Home() {
         <div style={{paddingTop: "20px"}}>
              <Link to="/courses" className="btn btn-primary" >View All Courses</Link>
         </div>
-       
+     
         
-      </section>
-        <section style={{backgroundColor: "#F5F5F5"}} className='py-5'>
+      </section >
+
+        <section style={{backgroundColor: "#F5F5F5"}} className ="custom-container py-5 video-section ">
+        <h2>Watch Our Introduction</h2>
+      <div className="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/AG3Pzq9EAWo?si=Q7nYGfkFzJBG0Srs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+       
+      </div>
+        <p>
+        Want to see more? Visit our{" "}
+        <a
+          href="https://www.youtube.com/@ignitemindsinstitute" 
+          target="_blank"
+          rel="noopener noreferrer" 
+        >
+          YouTube Channel
+        </a>
+    
+      </p>
+
+     
+       </section>
+        <section style={{backgroundColor: "#fff"}} className='py-5'>
         <TestimonialCarousal />
       </section>
       <section
-        className="call-to-action custom-container  py-5"
-        style={{ backgroundColor: "#Fff"}}
+        className="call-to-action custom-container  py-5" 
+        style={{ backgroundColor: "#F5F5F5"}}
       >
         <h3>Ready to Get Started?</h3>
         <p>Let’s prepare for your IELTS test the right way.</p>

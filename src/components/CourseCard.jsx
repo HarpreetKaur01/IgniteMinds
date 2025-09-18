@@ -14,12 +14,13 @@ function CourseCard({ title, price, image, description }) {
   e.preventDefault();
   const name = e.target.name.value;
   const email = e.target.email.value;
+  const phone = e.target.phone.value;
   // const courseName = e.target.course.value;
 
-  const message = `Hello, my name is ${name}. My contact number is ${email}.I am interested in the course: ${title}`
+  const message = `Hello, my name is ${name}. My number is ${phone} My contact email is ${email}.I am interested in the course: ${title}`
 ;
 
-  window.open(`https://wa.me/919872308512?text=${encodeURIComponent(message)}`, "_blank");
+  window.open(`https://wa.me/14168258430?text=${encodeURIComponent(message)}`, "_blank");
 };
   return (
     
@@ -68,7 +69,7 @@ function CourseCard({ title, price, image, description }) {
                   </div>
                   <div className="mb-3">
                     <label className="form-label">Phone</label>
-                    <input type="email" className="form-control" name="phone"/>
+                    <input type="phone" className="form-control" name="phone"/>
                   </div>
                    <div className="modal-footer" style={{"border" : "none"}}>
                 <button
